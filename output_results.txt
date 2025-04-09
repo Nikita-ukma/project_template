@@ -2,7 +2,7 @@
 RESULTS:
 
 1. Text from console:
-HELLO
+HELLO!
 
 2. Text from file (built-in Python):
 HELLO WORLD:)

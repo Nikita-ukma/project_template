@@ -1,6 +1,6 @@
 # Import functions from input.py and output.py
-from app.input import read_from_console, read_from_file, read_from_file_pandas
-from app.output import write_to_console, write_to_file
+from app.io.input import read_from_console, read_from_file, read_from_file_pandas
+from app.io.output import write_to_console, write_to_file
 
 def main():
     """
