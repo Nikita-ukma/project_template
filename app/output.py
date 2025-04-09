@@ -5,7 +5,7 @@ def write_to_console(text):
     Args:
         text (str): Text to be displayed in the console
     """
-    pass
+    print(text)
 
 
 def write_to_file(file_path, text):
@@ -17,11 +17,9 @@ def write_to_file(file_path, text):
         file_path (str): Path to the file
         text (str): Text content to write to the file
     """
-    pass
+    try:
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(text)
+    except Exception as e:
+        print(f"Error writing to file: {str(e)}")
 
-
-def write_to_file_custom():
-    """
-    Third empty function as requested.
-    """
-    pass

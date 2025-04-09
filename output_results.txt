@@ -1,0 +1,13 @@
+
+RESULTS:
+
+1. Text from console:
+HELLO
+
+2. Text from file (built-in Python):
+HELLO WORLD:)
+
+3. Data from file (pandas):
+Empty DataFrame
+Columns: [HELLO WORLD:)]
+Index: []
